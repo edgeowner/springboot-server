@@ -1,0 +1,1818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="09c974d1-07e7-4ec6-ac85-172d0c3b7d04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/greenland-sso-server/src/main/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greenland-sso-server/src/main/docker/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/util/web/JedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greenland-sso-server/start.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../api/src/main/java/org/atmatrix/greenland/config/SSOConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../api/src/main/java/org/atmatrix/greenland/config/SSOConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../api/src/main/java/org/atmatrix/greenland/domain/assets/AssetPackageBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../api/src/main/java/org/atmatrix/greenland/domain/assets/AssetPackageBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-core/src/main/java/com/atmatrix/greenland/core/store/SsoSessionIdHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-core/src/main/java/com/atmatrix/greenland/core/store/SsoSessionIdHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-core/target/greenland-sso-core-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-core/target/greenland-sso-core-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-core/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/config/GreenlandSSOConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/config/GreenlandSSORedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/controller/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/controller/WebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/src/main/resources/docker/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/src/main/resources/mapper/SSOUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/src/main/resources/mapper/SSOUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/src/main/resources/mapper/UserBaseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/src/main/resources/mapper/UserBaseMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/com/atmatrix/greenland/config/CORSConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/com/atmatrix/greenland/config/CORSConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/com/atmatrix/greenland/config/GlobalCorsConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/com/atmatrix/greenland/config/GlobalCorsConfig$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/com/atmatrix/greenland/config/GlobalCorsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/com/atmatrix/greenland/config/GlobalCorsConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/com/atmatrix/greenland/config/GreenlandSSOConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/com/atmatrix/greenland/controller/WebController.class" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/com/atmatrix/greenland/controller/WebController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/com/atmatrix/greenland/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/com/atmatrix/greenland/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/mapper/SSOUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/mapper/SSOUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/mapper/UserBaseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/mapper/UserBaseMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/dist/css/AdminLTE.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/dist/css/AdminLTE.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/dist/css/skins/_all-skins.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/dist/css/skins/_all-skins.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/dist/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/dist/js/app.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/fastclick/fastclick.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/fastclick/fastclick.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/icheck.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/icheck.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/_all.css" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/_all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/aero.css" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/aero.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/aero.png" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/aero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/aero@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/aero@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/blue@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/blue@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/green.css" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/green.png" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/green@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/green@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/grey.css" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/grey.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/grey.png" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/grey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/grey@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/grey@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/orange.css" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/orange.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/orange.png" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/orange.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/orange@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/orange@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/pink.css" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/pink.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/pink.png" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/pink.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/pink@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/pink@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/purple.css" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/purple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/purple.png" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/purple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/purple@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/purple@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/red.css" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/red.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/red.png" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/red@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/red@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/square.css" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/square.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/square.png" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/square.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/square@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/square@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/yellow.css" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/yellow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/yellow.png" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/yellow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/yellow@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/iCheck/square/yellow@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/jQuery/jquery-2.2.3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/jQuery/jquery-2.2.3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/slimScroll/jquery.slimscroll.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/adminlte/plugins/slimScroll/jquery.slimscroll.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/plugins/font-awesome-4.5.0/css/font-awesome.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/plugins/font-awesome-4.5.0/css/font-awesome.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/plugins/font-awesome-4.5.0/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/plugins/font-awesome-4.5.0/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/plugins/font-awesome-4.5.0/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/plugins/font-awesome-4.5.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/classes/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/greenland-sso-server-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/greenland-sso-server-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/greenland-sso-server-1.0.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/greenland-sso-server-1.0.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenland-sso-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/greenland-sso-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/src/components/login1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../web/src/components/login1.vue" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/greenland-sso-server/target/" />
+    <ignored path="$PROJECT_DIR$/greenland-sso-core/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2006538942">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="16" />
+          <entry key="project.open.time.0" value="10" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.opened" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="0-SNAPSHOT" value="2" />
+          <entry key="Dockerfile" value="2" />
+          <entry key="class" value="1" />
+          <entry key="ftl" value="6" />
+          <entry key="gif" value="1" />
+          <entry key="iml" value="4" />
+          <entry key="java" value="67" />
+          <entry key="md" value="1" />
+          <entry key="pom" value="2" />
+          <entry key="properties" value="4" />
+          <entry key="xml" value="19" />
+          <entry key="yml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="Dockerfile" value="2" />
+          <entry key="FTL" value="6" />
+          <entry key="IDEA_MODULE" value="4" />
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="67" />
+          <entry key="Markdown" value="1" />
+          <entry key="Properties" value="4" />
+          <entry key="UML" value="2" />
+          <entry key="XML" value="21" />
+          <entry key="YAML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Dockerfile" value="7" />
+          <entry key="ftl" value="17" />
+          <entry key="java" value="183" />
+          <entry key="properties" value="13" />
+          <entry key="xml" value="72" />
+          <entry key="yml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Dockerfile" value="7" />
+          <entry key="FTL" value="17" />
+          <entry key="JAVA" value="183" />
+          <entry key="Properties" value="13" />
+          <entry key="XML" value="72" />
+          <entry key="YAML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/greenland-sso-core/src/main/java/com/atmatrix/greenland/core/filter/GreenlandSsoTokenFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/greenland-sso-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="519">
+              <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/greenland-sso-server/greenland-sso-server.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/greenland-sso.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/greenland-sso-core/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/greenland-sso-core/src/main/java/com/atmatrix/greenland/core/store/SsoLoginStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/greenland-sso-core/src/main/java/com/atmatrix/greenland/core/store/SsoSessionIdHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="96" selection-start-line="12" selection-start-column="96" selection-end-line="12" selection-end-column="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/greenland-sso-core/src/main/java/com/atmatrix/greenland/core/user/GreenlandSSOUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>public static void main\(String\[\] args\) \{\n</find>
+      <find>xxl</find>
+      <find>redis</find>
+      <find>Hibernate Validator</find>
+      <find>spring-boot</find>
+      <find>spring-boot-starter-web</find>
+      <find>web</find>
+      <find>greenland-core</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/greenland-sso-core/src/main/java/com/atmatrix/greenland/core/filter/GreenlandSsoWebFilter.java" />
+        <option value="$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/config/GreenlandSSOConfig.java" />
+        <option value="$PROJECT_DIR$/greenland-sso-server/src/main/resources/templates/login.ftl" />
+        <option value="$PROJECT_DIR$/greenland-sso-server/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/greenland-sso-server/src/main/resources/templates/common/common.macro.ftl" />
+        <option value="$PROJECT_DIR$/greenland-sso-core/src/main/java/com/atmatrix/greenland/core/filter/GreenlandSsoTokenFilter.java" />
+        <option value="$PROJECT_DIR$/greenland-sso-core/src/main/java/com/atmatrix/greenland/core/store/SsoLoginStore.java" />
+        <option value="$PROJECT_DIR$/greenland-sso-server/src/main/resources/templates/index.ftl" />
+        <option value="$PROJECT_DIR$/greenland-sso-core/src/main/java/com/atmatrix/greenland/core/user/GreenlandSSOUser.java" />
+        <option value="$PROJECT_DIR$/greenland-sso-core/src/main/java/com/atmatrix/greenland/core/login/SSOTokenLoginHelper.java" />
+        <option value="$PROJECT_DIR$/greenland-sso-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/greenland-sso-core/src/main/java/com/atmatrix/greenland/core/util/JedisUtil.java" />
+        <option value="$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/core/UserInfo.java" />
+        <option value="$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/dao/K.java" />
+        <option value="$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/controller/AppController.java" />
+        <option value="$PROJECT_DIR$/greenland-sso-core/src/main/java/com/atmatrix/greenland/core/login/SSOWebLoginHelper.java" />
+        <option value="$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/GreenlandSSOServerApplication.java" />
+        <option value="$PROJECT_DIR$/greenland-sso-server/src/main/resources/mapper/SsoUserMapper.xml" />
+        <option value="$PROJECT_DIR$/greenland-sso-server/pom.xml" />
+        <option value="$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/mapper/po/SsoUser.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/greenland-sso-server/src/main/resources/mybatis-generator/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/controller/WebController.java" />
+        <option value="$PROJECT_DIR$/greenland-sso-core/src/main/java/com/atmatrix/greenland/core/util/CookieUtil.java" />
+        <option value="$PROJECT_DIR$/greenland-sso-core/src/main/java/com/atmatrix/greenland/core/store/SsoSessionIdHelper.java" />
+        <option value="$PROJECT_DIR$/greenland-sso-server/src/main/docker/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/greenland-sso-server/src/main/docker/Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="greenland-sso" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="greenland-sso" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1511" />
+    <option name="y" value="86" />
+    <option name="width" value="1634" />
+    <option name="height" value="1287" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="greenland-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="greenland-sso" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="greenland-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="greenland-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="greenland-sso-core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="greenland-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="greenland-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="greenland-sso-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="greenland-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="greenland-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="greenland-sso-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="greenland-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="greenland-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="greenland-sso-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="greenland-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="greenland-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="greenland-sso-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="greenland-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="greenland-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="greenland-sso" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543400285035" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atmatrix.greenland.core" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/greenland-sso-server/src/main/resources/mapper" />
+      <recent name="$PROJECT_DIR$/greenland-sso-server/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Docker.greemland">
+    <configuration name="JedisUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atmatrix.greenland.core.util.JedisUtil" />
+      <module name="greenland-sso-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atmatrix.greenland.core.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="greenland-sso-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atmatrix.greenland.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="greemland" type="docker-deploy" factoryName="docker-compose.yml" server-name="greenland-server">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="startBrowserSettings">
+            <browser url="http://127.0.0.1" />
+          </option>
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.greemland" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Application.JedisUtil" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JedisUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09c974d1-07e7-4ec6-ac85-172d0c3b7d04" name="Default Changelist" comment="" />
+      <created>1542855865121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542855865121</updated>
+      <workItem from="1542855866402" duration="2000" />
+      <workItem from="1542855972100" duration="7000" />
+      <workItem from="1542855993830" duration="29000" />
+      <workItem from="1542856042450" duration="60000" />
+      <workItem from="1542856122435" duration="11542000" />
+      <workItem from="1542881274612" duration="41000" />
+      <workItem from="1542881327951" duration="2784000" />
+      <workItem from="1542885499657" duration="5392000" />
+      <workItem from="1542893912081" duration="4439000" />
+      <workItem from="1543198554729" duration="3000" />
+      <workItem from="1543211513766" duration="1199000" />
+      <workItem from="1543212823189" duration="639000" />
+      <workItem from="1543229559660" duration="55000" />
+      <workItem from="1543229637294" duration="783000" />
+      <workItem from="1543258827195" duration="4435000" />
+      <workItem from="1543308835092" duration="1330000" />
+      <workItem from="1543310433377" duration="2937000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="35677000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1511" y="86" width="1634" height="1287" extended-state="1" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26444724" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32980973" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6834171" weight="0.4460251" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39946738" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4987437" weight="0.44518828" />
+      <window_info anchor="bottom" id="Docker" order="8" visible="true" weight="0.32970712" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5012563" side_tool="true" weight="0.24769874" />
+      <window_info anchor="bottom" id="Multi-OS Engine" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info active="true" anchor="bottom" id="Messages" order="15" sideWeight="0.49844882" visible="true" weight="0.2878981" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="JSON Viewer" order="4" />
+      <window_info anchor="right" id="Flutter Inspector" order="5" />
+      <window_info anchor="right" id="Flutter Outline" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.31092966" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="SciView" order="9" />
+      <window_info anchor="right" id="Database" order="10" />
+      <window_info anchor="right" id="Palette&#9;" order="11" />
+      <window_info anchor="right" id="Theme Preview" order="12" />
+      <window_info anchor="right" id="Bean Validation" order="13" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33461046" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31023455" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39946738" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.24900132" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Multi-OS Engine" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="JSON Viewer" order="4" />
+      <window_info anchor="right" id="Flutter Inspector" order="5" />
+      <window_info anchor="right" id="Flutter Outline" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.16475096" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="SciView" order="9" />
+      <window_info anchor="right" id="Database" order="10" />
+      <window_info anchor="right" id="Palette&#9;" order="11" />
+      <window_info anchor="right" id="Theme Preview" order="12" />
+      <window_info anchor="right" id="Bean Validation" order="13" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/controller/AppController.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/greenland-sso-core/greenland-sso-core.iml" />
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server/src/main/resources/templates/common/common.exception.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server/src/main/resources/templates/common/common.macro.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="90" column="22" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server/src/main/resources/templates/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="32" column="68" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../hsweb-framework/quick-start/img/create-controller.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-core/src/main/java/com/atmatrix/greenland/core/filter/GreenlandSsoWebFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/BinaryShardedJedis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="136" column="18" selection-start-line="136" selection-start-column="18" selection-end-line="136" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/core/UserInfo.java" />
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/core/result/ReturnT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/core/model/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/controller/interceptor/PermissionInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/dao/K.java" />
+    <entry file="file://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-starter/1.3.1/mybatis-spring-boot-starter-1.3.1.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.13/mysql-connector-java-8.0.13.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server/src/main/resources/mybatis.xml" />
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/mapper/J.java" />
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="41" column="89" selection-start-line="41" selection-start-column="89" selection-end-line="41" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server/src/main/resources/mapper/SSOUserMapper.xml" />
+    <entry file="uml://MAVEN/com.greenland.atmatrix:greenland-sso:1.0.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.greenland.atmatrix:greenland-sso:1.0.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">com.greenland.atmatrix:greenland-sso:1.0.0-SNAPSHOT</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-94.0" y="-86.0" />
+          <SelectedNodes>
+            <node>com.greenland.atmatrix:greenland-sso:1.0.0-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.greenland.atmatrix:greenland-sso-server:1.0.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.greenland.atmatrix:greenland-sso-server:1.0.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="1515.1439496562132" y="990.0">com.greenland.atmatrix:greenland-sso-server:1.0.0-SNAPSHOT</node>
+            <node x="3509.7272829895464" y="891.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE</node>
+            <node x="2130.3939496562134" y="643.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE</node>
+            <node x="2228.491657870429" y="544.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.0.RELEASE</node>
+            <node x="2399.592065062817" y="455.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.0.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
+            <node x="2438.342065062817" y="366.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.0.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="2266.592065062817" y="455.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.0.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.1</node>
+            <node x="2308.342065062817" y="366.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.0.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.1/org.apache.logging.log4j:log4j-api:jar:2.11.1</node>
+            <node x="2091.5779712949507" y="455.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.0.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
+            <node x="2572.342065062817" y="544.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
+            <node x="2112.491657870429" y="544.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.yaml:snakeyaml:jar:1.23</node>
+            <node x="3308.4083245370957" y="762.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE</node>
+            <node x="3302.7590128425004" y="544.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7</node>
+            <node x="3151.154565062817" y="455.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
+            <node x="3394.3215128425004" y="455.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7/com.fasterxml.jackson.core:jackson-core:jar:2.9.7</node>
+            <node x="3365.3840128425004" y="643.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.7</node>
+            <node x="3162.3840128425004" y="643.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.7</node>
+            <node x="3556.3840128425004" y="643.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.7</node>
+            <node x="2804.9358974358965" y="762.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.0.RELEASE</node>
+            <node x="2996.967065062817" y="544.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.0.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.12</node>
+            <node x="2765.717065062817" y="643.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.0.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.12</node>
+            <node x="2923.717065062817" y="643.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.0.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.12</node>
+            <node x="4050.8840128425004" y="762.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final</node>
+            <node x="4192.3840128425" y="643.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final/javax.validation:validation-api:jar:2.0.1.Final</node>
+            <node x="3942.3840128425004" y="643.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
+            <node x="4079.3840128425004" y="643.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final/com.fasterxml:classmate:jar:1.4.0</node>
+            <node x="3820.3840128425004" y="643.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-web:jar:5.1.2.RELEASE</node>
+            <node x="3922.3249912037627" y="198.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-web:jar:5.1.2.RELEASE/org.springframework:spring-beans:jar:5.1.2.RELEASE</node>
+            <node x="4346.99165787043" y="762.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE</node>
+            <node x="4503.3840128425" y="287.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE/org.springframework:spring-aop:jar:5.1.2.RELEASE</node>
+            <node x="2763.241657870429" y="366.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE/org.springframework:spring-context:jar:5.1.2.RELEASE</node>
+            <node x="4339.3840128425" y="287.0">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE/org.springframework:spring-expression:jar:5.1.2.RELEASE</node>
+            <node x="982.3106163228802" y="891.0">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE</node>
+            <node x="1617.1858974358972" y="643.0">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-test:jar:2.1.0.RELEASE</node>
+            <node x="1661.6858974358972" y="762.0">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.1.0.RELEASE</node>
+            <node x="597.0192307692307" y="762.0">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0</node>
+            <node x="554.5192307692307" y="643.0">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
+            <node x="536.5192307692307" y="544.0">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
+            <node x="575.5192307692307" y="455.0">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4</node>
+            <node x="1108.0192307692307" y="762.0">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/junit:junit:jar:4.12</node>
+            <node x="409.5192307692305" y="762.0">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.assertj:assertj-core:jar:3.11.1</node>
+            <node x="1347.7670738590539" y="762.0">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.mockito:mockito-core:jar:2.23.0</node>
+            <node x="1383.1858974358972" y="643.0">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.mockito:mockito-core:jar:2.23.0/net.bytebuddy:byte-buddy:jar:1.9.3</node>
+            <node x="1218.1858974358972" y="643.0">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.mockito:mockito-core:jar:2.23.0/net.bytebuddy:byte-buddy-agent:jar:1.9.3</node>
+            <node x="1507.1858974358972" y="643.0">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.mockito:mockito-core:jar:2.23.0/org.objenesis:objenesis:jar:2.6</node>
+            <node x="1076.1858974358972" y="643.0">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="955.0192307692307" y="762.0">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
+            <node x="839.0192307692307" y="762.0">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0</node>
+            <node x="831.5192307692307" y="643.0">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+            <node x="2703.2590128425004" y="79.0">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework:spring-core:jar:5.1.2.RELEASE</node>
+            <node x="2710.2590128425004" y="0.0">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework:spring-core:jar:5.1.2.RELEASE/org.springframework:spring-jcl:jar:5.1.2.RELEASE</node>
+            <node x="348.5192307692305" y="198.0">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework:spring-test:jar:5.1.2.RELEASE</node>
+            <node x="709.0192307692307" y="762.0">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.xmlunit:xmlunit-core:jar:2.6.2</node>
+            <node x="2318.206449656213" y="891.0">org.springframework.boot:spring-boot-starter-freemarker:jar:2.1.0.RELEASE</node>
+            <node x="2381.706449656213" y="762.0">org.springframework.boot:spring-boot-starter-freemarker:jar:2.1.0.RELEASE/org.freemarker:freemarker:jar:2.3.28</node>
+            <node x="2651.342065062817" y="455.0">org.springframework.boot:spring-boot-starter-freemarker:jar:2.1.0.RELEASE/org.springframework:spring-context-support:jar:5.1.2.RELEASE</node>
+            <node x="145.0" y="891.0">com.greenland.atmatrix:greenland-sso-core:jar:1.0.0-SNAPSHOT</node>
+            <node x="245.33333333333303" y="762.0">com.greenland.atmatrix:greenland-sso-core:jar:1.0.0-SNAPSHOT/javax.servlet:javax.servlet-api:jar:4.0.1</node>
+            <node x="2099.0779712949507" y="366.0">com.greenland.atmatrix:greenland-sso-core:jar:1.0.0-SNAPSHOT/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="127.83333333333303" y="762.0">com.greenland.atmatrix:greenland-sso-core:jar:1.0.0-SNAPSHOT/redis.clients:jedis:jar:2.9.0</node>
+            <node x="91.33333333333303" y="643.0">com.greenland.atmatrix:greenland-sso-core:jar:1.0.0-SNAPSHOT/redis.clients:jedis:jar:2.9.0/org.apache.commons:commons-pool2:jar:2.6.0</node>
+            <node x="1900.6439496562132" y="643.0">org.springframework.boot:spring-boot-devtools:jar:2.1.0.RELEASE</node>
+            <node x="1886.7275641025637" y="455.0">org.springframework.boot:spring-boot-devtools:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot:jar:2.1.0.RELEASE</node>
+            <node x="1823.2416578704292" y="544.0">org.springframework.boot:spring-boot-devtools:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.0.RELEASE</node>
+            <node x="1494.1439496562132" y="891.0">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:unknown</node>
+            <node x="3713.7272829895464" y="891.0">mysql:mysql-connector-java:jar:8.0.13</node>
+            <node x="0.0" y="891.0">org.mybatis:mybatis-spring:jar:1.3.1</node>
+            <node x="648.3106163228802" y="891.0">org.projectlombok:lombok:jar:1.18.2</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE/org.springframework:spring-context:jar:5.1.2.RELEASE">
+              <point x="-31.75" y="-14.5" />
+              <point x="4378.74165787043" y="722.0" />
+              <point x="4317.8840128425" y="722.0" />
+              <point x="4317.8840128425" y="435.0" />
+              <point x="2866.5749912037627" y="435.0" />
+              <point x="41.333333333333485" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.mockito:mockito-core:jar:2.23.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.mockito:mockito-core:jar:2.23.0/org.objenesis:objenesis:jar:2.6">
+              <point x="38.0" y="-14.5" />
+              <point x="1442.7670738590539" y="742.0" />
+              <point x="1552.1858974358972" y="742.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final/com.fasterxml:classmate:jar:1.4.0">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-test:jar:2.1.0.RELEASE">
+              <point x="56.30769230769215" y="-14.5" />
+              <point x="1130.1183086305723" y="851.0" />
+              <point x="1651.1858974358972" y="851.0" />
+              <point x="-34.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0" target="com.greenland.atmatrix:greenland-sso-core:jar:1.0.0-SNAPSHOT/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="23.0" y="-14.5" />
+              <point x="666.0192307692307" y="742.0" />
+              <point x="682.0192307692307" y="742.0" />
+              <point x="682.0192307692307" y="425.0" />
+              <point x="2123.677971294951" y="425.0" />
+              <point x="-16.40000000000009" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.7">
+              <point x="15.416666666666515" y="-14.5" />
+              <point x="3416.3249912037622" y="722.0" />
+              <point x="3450.8840128425004" y="722.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE/org.springframework:spring-context:jar:5.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE/org.springframework:spring-expression:jar:5.1.2.RELEASE">
+              <point x="15.5" y="-14.5" />
+              <point x="2840.741657870429" y="336.0" />
+              <point x="4375.3840128425" y="336.0" />
+              <point x="-36.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.7">
+              <point x="46.25" y="-14.5" />
+              <point x="3447.1583245370957" y="732.0" />
+              <point x="3678.3840128425004" y="732.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/junit:junit:jar:4.12" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.greenland.atmatrix:greenland-sso-core:jar:1.0.0-SNAPSHOT" target="com.greenland.atmatrix:greenland-sso-core:jar:1.0.0-SNAPSHOT/javax.servlet:javax.servlet-api:jar:4.0.1">
+              <point x="51.33333333333326" y="-14.5" />
+              <point x="273.33333333333303" y="871.0" />
+              <point x="311.33333333333303" y="871.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.0.RELEASE">
+              <point x="-46.0" y="-14.5" />
+              <point x="3555.7272829895464" y="861.0" />
+              <point x="2905.9358974358965" y="861.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.7" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7/com.fasterxml.jackson.core:jackson-core:jar:2.9.7">
+              <point x="42.75" y="-14.5" />
+              <point x="3493.6340128425004" y="524.0" />
+              <point x="3464.3215128425004" y="524.0" />
+              <point x="14.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.0.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.12">
+              <point x="75.75" y="-14.5" />
+              <point x="2981.6858974358965" y="742.0" />
+              <point x="3128.217065062817" y="742.0" />
+              <point x="3128.217065062817" y="623.0" />
+              <point x="3113.217065062817" y="623.0" />
+              <point x="38.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0">
+              <point x="-34.75" y="-14.5" />
+              <point x="3337.5090128425004" y="504.0" />
+              <point x="3270.404565062817" y="504.0" />
+              <point x="39.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE">
+              <point x="-76.66666666666652" y="-14.5" />
+              <point x="3525.0606163228795" y="871.0" />
+              <point x="2794.4358974358965" y="871.0" />
+              <point x="2794.4358974358965" y="742.0" />
+              <point x="2226.0189496562134" y="742.0" />
+              <point x="19.125" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.xmlunit:xmlunit-core:jar:2.6.2">
+              <point x="-28.15384615384619" y="-14.5" />
+              <point x="1045.656770169034" y="831.0" />
+              <point x="764.0192307692307" y="831.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.greenland.atmatrix:greenland-sso-server:1.0.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE">
+              <point x="55.0" y="-14.5" />
+              <point x="1652.6439496562132" y="960.0" />
+              <point x="3601.7272829895464" y="960.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework:spring-test:jar:5.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework:spring-core:jar:5.1.2.RELEASE">
+              <point x="0.0" y="-14.5" />
+              <point x="399.0192307692305" y="138.0" />
+              <point x="2707.986285569773" y="138.0" />
+              <point x="-47.27272727272748" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-devtools:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE/org.springframework:spring-context:jar:5.1.2.RELEASE">
+              <point x="26.5" y="-14.5" />
+              <point x="1966.2275641025637" y="435.0" />
+              <point x="2783.9083245370957" y="435.0" />
+              <point x="-41.333333333333485" y="14.5" />
+            </edge>
+            <edge source="com.greenland.atmatrix:greenland-sso-core:jar:1.0.0-SNAPSHOT" target="com.greenland.atmatrix:greenland-sso-core:jar:1.0.0-SNAPSHOT/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="0.0" y="-14.5" />
+              <point x="222.0" y="871.0" />
+              <point x="234.83333333333303" y="871.0" />
+              <point x="234.83333333333303" y="415.0" />
+              <point x="2107.277971294951" y="415.0" />
+              <point x="-32.799999999999955" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE/org.springframework:spring-context:jar:5.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-web:jar:5.1.2.RELEASE/org.springframework:spring-beans:jar:5.1.2.RELEASE">
+              <point x="-15.5" y="-14.5" />
+              <point x="2809.741657870429" y="346.0" />
+              <point x="2799.741657870429" y="346.0" />
+              <point x="2799.741657870429" y="257.0" />
+              <point x="3956.5249912037625" y="257.0" />
+              <point x="-22.800000000000182" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE">
+              <point x="-77.08333333333348" y="-14.5" />
+              <point x="3323.8249912037622" y="712.0" />
+              <point x="2264.2689496562134" y="712.0" />
+              <point x="57.375" y="14.5" />
+            </edge>
+            <edge source="com.greenland.atmatrix:greenland-sso-server:1.0.0-SNAPSHOT" target="org.projectlombok:lombok:jar:1.18.2">
+              <point x="-36.66666666666674" y="-14.5" />
+              <point x="1560.9772829895464" y="950.0" />
+              <point x="686.8106163228802" y="950.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE/org.springframework:spring-context:jar:5.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework:spring-core:jar:5.1.2.RELEASE">
+              <point x="-46.5" y="-14.5" />
+              <point x="2778.741657870429" y="346.0" />
+              <point x="2771.241657870429" y="346.0" />
+              <point x="2771.241657870429" y="178.0" />
+              <point x="2755.2590128425004" y="178.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.0.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.12">
+              <point x="-25.25" y="-14.5" />
+              <point x="2880.6858974358965" y="722.0" />
+              <point x="2834.717065062817" y="722.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="28.15384615384619" y="-14.5" />
+              <point x="1101.9644624767263" y="831.0" />
+              <point x="1245.1166578704292" y="831.0" />
+              <point x="1245.1166578704292" y="742.0" />
+              <point x="1177.852564102564" y="742.0" />
+              <point x="40.66666666666674" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-web:jar:5.1.2.RELEASE">
+              <point x="15.333333333333485" y="-14.5" />
+              <point x="3617.0606163228795" y="851.0" />
+              <point x="3871.3840128425004" y="851.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE/org.springframework:spring-expression:jar:5.1.2.RELEASE">
+              <point x="10.583333333333485" y="-14.5" />
+              <point x="4421.074991203763" y="722.0" />
+              <point x="4447.3840128425" y="722.0" />
+              <point x="36.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-test:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-devtools:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot:jar:2.1.0.RELEASE">
+              <point x="0.0" y="-14.5" />
+              <point x="1685.1858974358972" y="524.0" />
+              <point x="1899.9775641025637" y="524.0" />
+              <point x="-39.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0">
+              <point x="-42.23076923076928" y="-14.5" />
+              <point x="1031.5798470921109" y="841.0" />
+              <point x="643.0192307692307" y="841.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.0.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25" target="com.greenland.atmatrix:greenland-sso-core:jar:1.0.0-SNAPSHOT/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE/org.springframework:spring-aop:jar:5.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-web:jar:5.1.2.RELEASE/org.springframework:spring-beans:jar:5.1.2.RELEASE">
+              <point x="-25.0" y="-14.5" />
+              <point x="4528.3840128425" y="257.0" />
+              <point x="4024.924991203762" y="257.0" />
+              <point x="45.59999999999991" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.7" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7">
+              <point x="-42.75" y="-14.5" />
+              <point x="3408.1340128425004" y="623.0" />
+              <point x="3389.6340128425004" y="623.0" />
+              <point x="17.375" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-devtools:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-devtools:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.0.RELEASE">
+              <point x="-41.25" y="-14.5" />
+              <point x="1941.8939496562132" y="623.0" />
+              <point x="1922.7416578704292" y="623.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0">
+              <point x="-14.076923076923094" y="-14.5" />
+              <point x="1059.733693245957" y="821.0" />
+              <point x="887.0192307692307" y="821.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-devtools:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.0.RELEASE">
+              <point x="57.25" y="-14.5" />
+              <point x="1833.4358974358972" y="623.0" />
+              <point x="1856.408324537096" y="623.0" />
+              <point x="-66.33333333333326" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.0.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3">
+              <point x="68.33333333333303" y="-14.5" />
+              <point x="2399.3249912037622" y="524.0" />
+              <point x="2463.092065062817" y="524.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.greenland.atmatrix:greenland-sso-server:1.0.0-SNAPSHOT" target="org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:unknown">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-devtools:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.0.RELEASE">
+              <point x="-63.75" y="-14.5" />
+              <point x="2143.1439496562134" y="613.0" />
+              <point x="1989.0749912037625" y="613.0" />
+              <point x="66.33333333333326" y="14.5" />
+            </edge>
+            <edge source="com.greenland.atmatrix:greenland-sso-core:jar:1.0.0-SNAPSHOT/redis.clients:jedis:jar:2.9.0" target="com.greenland.atmatrix:greenland-sso-core:jar:1.0.0-SNAPSHOT/redis.clients:jedis:jar:2.9.0/org.apache.commons:commons-pool2:jar:2.6.0">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-devtools:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework:spring-core:jar:5.1.2.RELEASE">
+              <point x="-26.5" y="-14.5" />
+              <point x="1913.2275641025637" y="158.0" />
+              <point x="2726.895376478864" y="158.0" />
+              <point x="-28.363636363636488" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.0.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3" target="com.greenland.atmatrix:greenland-sso-core:jar:1.0.0-SNAPSHOT/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="-31.75" y="-14.5" />
+              <point x="2431.342065062817" y="415.0" />
+              <point x="2172.877971294951" y="415.0" />
+              <point x="32.799999999999955" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.0.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.0.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3">
+              <point x="31.75" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE/org.springframework:spring-context:jar:5.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE/org.springframework:spring-aop:jar:5.1.2.RELEASE">
+              <point x="46.5" y="-14.5" />
+              <point x="2871.741657870429" y="346.0" />
+              <point x="4528.3840128425" y="346.0" />
+              <point x="-25.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework:spring-test:jar:5.1.2.RELEASE">
+              <point x="-84.46153846153834" y="-14.5" />
+              <point x="989.3490778613418" y="871.0" />
+              <point x="399.0192307692305" y="871.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE/org.springframework:spring-aop:jar:5.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework:spring-core:jar:5.1.2.RELEASE">
+              <point x="25.0" y="-14.5" />
+              <point x="4578.3840128425" y="138.0" />
+              <point x="2793.0771946606824" y="138.0" />
+              <point x="37.81818181818198" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE">
+              <point x="84.46153846153834" y="-14.5" />
+              <point x="1158.2721547844185" y="871.0" />
+              <point x="1929.3525641025637" y="871.0" />
+              <point x="1929.3525641025637" y="742.0" />
+              <point x="2149.5189496562134" y="742.0" />
+              <point x="-57.375" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.7" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7/com.fasterxml.jackson.core:jackson-core:jar:2.9.7">
+              <point x="0.0" y="-14.5" />
+              <point x="3253.3840128425004" y="623.0" />
+              <point x="3228.5506795091674" y="623.0" />
+              <point x="3228.5506795091674" y="514.0" />
+              <point x="3408.3215128425004" y="514.0" />
+              <point x="-42.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.hamcrest:hamcrest-library:jar:1.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="0.0" y="-14.5" />
+              <point x="1021.5192307692307" y="742.0" />
+              <point x="1096.5192307692305" y="742.0" />
+              <point x="-40.66666666666674" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.7" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7">
+              <point x="-61.0" y="-14.5" />
+              <point x="3617.3840128425004" y="623.0" />
+              <point x="3424.3840128425004" y="623.0" />
+              <point x="52.125" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.0.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.1">
+              <point x="-2.2737367544323206E-13" y="-14.5" />
+              <point x="2330.991657870429" y="524.0" />
+              <point x="2323.092065062817" y="524.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE">
+              <point x="76.66666666666652" y="-14.5" />
+              <point x="3678.3939496562125" y="871.0" />
+              <point x="4410.49165787043" y="871.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework:spring-core:jar:5.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework:spring-core:jar:5.1.2.RELEASE/org.springframework:spring-jcl:jar:5.1.2.RELEASE">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7">
+              <point x="-15.416666666666515" y="-14.5" />
+              <point x="3385.491657870429" y="692.0" />
+              <point x="3354.8840128425004" y="692.0" />
+              <point x="-17.375" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE">
+              <point x="-15.333333333333485" y="-14.5" />
+              <point x="3586.3939496562125" y="851.0" />
+              <point x="3400.9083245370957" y="851.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-devtools:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-devtools:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot:jar:2.1.0.RELEASE">
+              <point x="0.0" y="-14.5" />
+              <point x="1922.7416578704292" y="524.0" />
+              <point x="1926.4775641025637" y="524.0" />
+              <point x="-13.25" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.hamcrest:hamcrest-library:jar:1.3">
+              <point x="0.0" y="-14.5" />
+              <point x="1073.8106163228802" y="811.0" />
+              <point x="1021.5192307692307" y="811.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.greenland.atmatrix:greenland-sso-core:jar:1.0.0-SNAPSHOT" target="com.greenland.atmatrix:greenland-sso-core:jar:1.0.0-SNAPSHOT/redis.clients:jedis:jar:2.9.0">
+              <point x="-51.33333333333326" y="-14.5" />
+              <point x="170.66666666666697" y="871.0" />
+              <point x="157.83333333333303" y="871.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-freemarker:jar:2.1.0.RELEASE/org.springframework:spring-context-support:jar:5.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-web:jar:5.1.2.RELEASE/org.springframework:spring-beans:jar:5.1.2.RELEASE">
+              <point x="0.0" y="-14.5" />
+              <point x="2740.842065062817" y="425.0" />
+              <point x="2719.2590128425004" y="425.0" />
+              <point x="2719.2590128425004" y="247.0" />
+              <point x="3933.7249912037623" y="247.0" />
+              <point x="-45.59999999999991" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/junit:junit:jar:4.12">
+              <point x="14.076923076923094" y="-14.5" />
+              <point x="1087.8875393998032" y="821.0" />
+              <point x="1137.5192307692307" y="821.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.greenland.atmatrix:greenland-sso-server:1.0.0-SNAPSHOT" target="mysql:mysql-connector-java:jar:8.0.13">
+              <point x="73.33333333333326" y="-14.5" />
+              <point x="1670.9772829895464" y="970.0" />
+              <point x="3797.2272829895464" y="970.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-freemarker:jar:2.1.0.RELEASE/org.springframework:spring-context-support:jar:5.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework:spring-core:jar:5.1.2.RELEASE">
+              <point x="-59.666666666666515" y="-14.5" />
+              <point x="2681.1753983961503" y="425.0" />
+              <point x="2665.411304628284" y="425.0" />
+              <point x="2665.411304628284" y="178.0" />
+              <point x="2745.804467387955" y="178.0" />
+              <point x="-9.454545454545496" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework:spring-core:jar:5.1.2.RELEASE">
+              <point x="38.25" y="-14.5" />
+              <point x="2245.1439496562134" y="613.0" />
+              <point x="2561.842065062817" y="613.0" />
+              <point x="2561.842065062817" y="168.0" />
+              <point x="2736.3499219334094" y="168.0" />
+              <point x="-18.90909090909099" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-web:jar:5.1.2.RELEASE">
+              <point x="-52.916666666666515" y="-14.5" />
+              <point x="4357.574991203763" y="732.0" />
+              <point x="3905.3840128425004" y="732.0" />
+              <point x="34.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-freemarker:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-freemarker:jar:2.1.0.RELEASE/org.freemarker:freemarker:jar:2.3.28">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE/org.springframework:spring-aop:jar:5.1.2.RELEASE">
+              <point x="31.75" y="-14.5" />
+              <point x="4442.24165787043" y="732.0" />
+              <point x="4578.3840128425" y="732.0" />
+              <point x="25.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.0.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.1" target="com.greenland.atmatrix:greenland-sso-core:jar:1.0.0-SNAPSHOT/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="-28.25" y="-14.5" />
+              <point x="2294.842065062817" y="425.0" />
+              <point x="2156.477971294951" y="425.0" />
+              <point x="16.40000000000009" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7/com.fasterxml.jackson.core:jackson-core:jar:2.9.7">
+              <point x="34.75" y="-14.5" />
+              <point x="3407.0090128425004" y="524.0" />
+              <point x="3436.3215128425004" y="524.0" />
+              <point x="-14.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3">
+              <point x="-23.0" y="-14.5" />
+              <point x="620.0192307692307" y="742.0" />
+              <point x="604.0192307692307" y="742.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-devtools:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot:jar:2.1.0.RELEASE">
+              <point x="-38.25" y="-14.5" />
+              <point x="2168.6439496562134" y="603.0" />
+              <point x="2074.241657870429" y="603.0" />
+              <point x="2074.241657870429" y="514.0" />
+              <point x="1979.4775641025637" y="514.0" />
+              <point x="39.75" y="14.5" />
+            </edge>
+            <edge source="com.greenland.atmatrix:greenland-sso-server:1.0.0-SNAPSHOT" target="com.greenland.atmatrix:greenland-sso-core:jar:1.0.0-SNAPSHOT">
+              <point x="-55.0" y="-14.5" />
+              <point x="1542.6439496562132" y="960.0" />
+              <point x="222.0" y="960.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.7">
+              <point x="-46.25" y="-14.5" />
+              <point x="3354.6583245370957" y="702.0" />
+              <point x="3253.3840128425004" y="702.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.0.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25">
+              <point x="-68.33333333333348" y="-14.5" />
+              <point x="2262.6583245370957" y="524.0" />
+              <point x="2140.0779712949507" y="524.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.0.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.12">
+              <point x="25.25" y="-14.5" />
+              <point x="2931.1858974358965" y="732.0" />
+              <point x="3020.717065062817" y="732.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.assertj:assertj-core:jar:3.11.1">
+              <point x="-70.38461538461536" y="-14.5" />
+              <point x="1003.4260009382647" y="861.0" />
+              <point x="462.5192307692305" y="861.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2">
+              <point x="63.75" y="-14.5" />
+              <point x="2270.6439496562134" y="623.0" />
+              <point x="2611.842065062817" y="623.0" />
+              <point x="-39.5" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.mockito:mockito-core:jar:2.23.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.mockito:mockito-core:jar:2.23.0/net.bytebuddy:byte-buddy:jar:1.9.3">
+              <point x="0.0" y="-14.5" />
+              <point x="1404.7670738590539" y="742.0" />
+              <point x="1435.1858974358972" y="742.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final">
+              <point x="-49.666666666666515" y="-14.5" />
+              <point x="4075.717346175834" y="742.0" />
+              <point x="4000.8840128425004" y="742.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.0.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.12" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.0.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.12">
+              <point x="0.0" y="-14.5" />
+              <point x="3020.717065062817" y="623.0" />
+              <point x="3035.717065062817" y="623.0" />
+              <point x="-38.75" y="14.5" />
+            </edge>
+            <edge source="com.greenland.atmatrix:greenland-sso-server:1.0.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-freemarker:jar:2.1.0.RELEASE">
+              <point x="36.66666666666674" y="-14.5" />
+              <point x="1634.31061632288" y="950.0" />
+              <point x="2430.706449656213" y="950.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework:spring-core:jar:5.1.2.RELEASE">
+              <point x="-56.30769230769215" y="-14.5" />
+              <point x="1017.502924015188" y="851.0" />
+              <point x="526.0192307692307" y="851.0" />
+              <point x="526.0192307692307" y="148.0" />
+              <point x="2717.4408310243184" y="148.0" />
+              <point x="-37.81818181818198" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-freemarker:jar:2.1.0.RELEASE/org.springframework:spring-context-support:jar:5.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE/org.springframework:spring-context:jar:5.1.2.RELEASE">
+              <point x="59.666666666666515" y="-14.5" />
+              <point x="2800.5087317294833" y="435.0" />
+              <point x="2825.241657870429" y="435.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.greenland.atmatrix:greenland-sso-server:1.0.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE">
+              <point x="-18.333333333333258" y="-14.5" />
+              <point x="1579.31061632288" y="940.0" />
+              <point x="1073.8106163228802" y="940.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework:spring-core:jar:5.1.2.RELEASE">
+              <point x="52.916666666666515" y="-14.5" />
+              <point x="4463.408324537096" y="742.0" />
+              <point x="4613.884012842501" y="742.0" />
+              <point x="4613.884012842501" y="128.0" />
+              <point x="2802.531740115228" y="128.0" />
+              <point x="47.27272727272748" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final">
+              <point x="46.0" y="-14.5" />
+              <point x="3647.7272829895464" y="861.0" />
+              <point x="4125.3840128425" y="861.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-web:jar:5.1.2.RELEASE/org.springframework:spring-beans:jar:5.1.2.RELEASE">
+              <point x="-10.583333333333485" y="-14.5" />
+              <point x="4399.908324537096" y="712.0" />
+              <point x="4328.8840128425" y="712.0" />
+              <point x="4328.8840128425" y="267.0" />
+              <point x="4002.124991203763" y="267.0" />
+              <point x="22.800000000000182" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2">
+              <point x="-75.75" y="-14.5" />
+              <point x="2830.1858974358965" y="732.0" />
+              <point x="2751.842065062817" y="732.0" />
+              <point x="2751.842065062817" y="623.0" />
+              <point x="2690.842065062817" y="623.0" />
+              <point x="39.5" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.greenland.atmatrix:greenland-sso-server:1.0.0-SNAPSHOT" target="org.springframework.boot:spring-boot-devtools:jar:2.1.0.RELEASE">
+              <point x="18.333333333333258" y="-14.5" />
+              <point x="1615.9772829895464" y="940.0" />
+              <point x="1987.202971294951" y="940.0" />
+              <point x="1987.202971294951" y="732.0" />
+              <point x="1983.1439496562132" y="732.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-freemarker:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-freemarker:jar:2.1.0.RELEASE/org.springframework:spring-context-support:jar:5.1.2.RELEASE">
+              <point x="75.0" y="-14.5" />
+              <point x="2505.706449656213" y="871.0" />
+              <point x="2740.842065062817" y="871.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-devtools:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-devtools:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot:jar:2.1.0.RELEASE">
+              <point x="41.25" y="-14.5" />
+              <point x="2024.3939496562132" y="623.0" />
+              <point x="2032.7416578704292" y="623.0" />
+              <point x="2032.7416578704292" y="524.0" />
+              <point x="1952.9775641025637" y="524.0" />
+              <point x="13.25" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.mockito:mockito-core:jar:2.23.0">
+              <point x="42.23076923076928" y="-14.5" />
+              <point x="1116.0413855536494" y="841.0" />
+              <point x="1404.7670738590539" y="841.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-web:jar:5.1.2.RELEASE">
+              <point x="77.08333333333348" y="-14.5" />
+              <point x="3477.991657870429" y="742.0" />
+              <point x="3837.3840128425004" y="742.0" />
+              <point x="-34.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.mockito:mockito-core:jar:2.23.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.mockito:mockito-core:jar:2.23.0/net.bytebuddy:byte-buddy-agent:jar:1.9.3">
+              <point x="-38.0" y="-14.5" />
+              <point x="1366.7670738590539" y="742.0" />
+              <point x="1290.6858974358972" y="742.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.1.0.RELEASE">
+              <point x="70.38461538461536" y="-14.5" />
+              <point x="1144.1952317074956" y="861.0" />
+              <point x="1776.1858974358972" y="861.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.yaml:snakeyaml:jar:1.23">
+              <point x="-12.75" y="-14.5" />
+              <point x="2194.1439496562134" y="593.0" />
+              <point x="2160.491657870429" y="593.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.7" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0">
+              <point x="-60.666666666666515" y="-14.5" />
+              <point x="3192.717346175834" y="623.0" />
+              <point x="3183.092065062817" y="623.0" />
+              <point x="3183.092065062817" y="524.0" />
+              <point x="3190.904565062817" y="524.0" />
+              <point x="-39.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-test:jar:2.1.0.RELEASE">
+              <point x="-57.25" y="-14.5" />
+              <point x="34.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-web:jar:5.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework:spring-core:jar:5.1.2.RELEASE">
+              <point x="-25.5" y="-14.5" />
+              <point x="3845.8840128425004" y="623.0" />
+              <point x="3837.6340128425004" y="623.0" />
+              <point x="3837.6340128425004" y="168.0" />
+              <point x="2764.713558297046" y="168.0" />
+              <point x="9.454545454545496" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.7" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7">
+              <point x="60.666666666666515" y="-14.5" />
+              <point x="3314.050679509167" y="623.0" />
+              <point x="3320.1340128425004" y="623.0" />
+              <point x="-52.125" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.7" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7/com.fasterxml.jackson.core:jackson-core:jar:2.9.7">
+              <point x="61.0" y="-14.5" />
+              <point x="3739.3840128425004" y="514.0" />
+              <point x="3492.3215128425004" y="514.0" />
+              <point x="42.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-freemarker:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE">
+              <point x="-75.0" y="-14.5" />
+              <point x="2355.706449656213" y="871.0" />
+              <point x="2179.6439496562134" y="871.0" />
+              <point x="2179.6439496562134" y="742.0" />
+              <point x="2187.7689496562134" y="742.0" />
+              <point x="-19.125" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final/javax.validation:validation-api:jar:2.0.1.Final">
+              <point x="49.666666666666515" y="-14.5" />
+              <point x="4175.050679509167" y="742.0" />
+              <point x="4249.8840128425" y="742.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.greenland.atmatrix:greenland-sso-server:1.0.0-SNAPSHOT" target="org.mybatis:mybatis-spring:jar:1.3.1">
+              <point x="-73.33333333333326" y="-14.5" />
+              <point x="1524.31061632288" y="970.0" />
+              <point x="62.5" y="970.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE/org.springframework:spring-expression:jar:5.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework:spring-core:jar:5.1.2.RELEASE">
+              <point x="0.0" y="-14.5" />
+              <point x="4411.3840128425" y="148.0" />
+              <point x="2783.622649206137" y="148.0" />
+              <point x="28.363636363636488" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.0.RELEASE">
+              <point x="12.75" y="-14.5" />
+              <point x="2219.6439496562134" y="603.0" />
+              <point x="2330.991657870429" y="603.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.0.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.1" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.0.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.1/org.apache.logging.log4j:log4j-api:jar:2.11.1">
+              <point x="28.25" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-web:jar:5.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-web:jar:5.1.2.RELEASE/org.springframework:spring-beans:jar:5.1.2.RELEASE">
+              <point x="25.5" y="-14.5" />
+              <point x="3896.8840128425004" y="623.0" />
+              <point x="3905.1340128425004" y="623.0" />
+              <point x="3905.1340128425004" y="267.0" />
+              <point x="3979.3249912037627" y="267.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-web:jar:5.1.2.RELEASE/org.springframework:spring-beans:jar:5.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework:spring-core:jar:5.1.2.RELEASE">
+              <point x="0.0" y="-14.5" />
+              <point x="3979.3249912037627" y="158.0" />
+              <point x="2774.1681037515914" y="158.0" />
+              <point x="18.90909090909099" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.5864708565985908" x="855.0" y="414.0" />
+          <SelectedNodes>
+            <node>org.projectlombok:lombok:jar:1.18.2</node>
+            <node>com.greenland.atmatrix:greenland-sso-server:1.0.0-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/mapper/po/SSOUser.java" />
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server/src/main/resources/mybatis-generator/generatorConfig.xml" />
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/mapper/SSOUserMapper.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/controller/WebController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="55" column="57" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-core/src/main/java/com/atmatrix/greenland/core/login/SSOTokenLoginHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="59" column="54" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-core/src/main/java/com/atmatrix/greenland/core/login/SSOWebLoginHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="81" column="57" selection-start-line="81" selection-start-column="57" selection-end-line="81" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/config/GreenlandSSORedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-core/src/main/java/com/atmatrix/greenland/core/exception/GreenlandSSOException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-core/src/main/java/com/atmatrix/greenland/core/entity/ReturnT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/dao/po/UserBaseExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server/src/main/java/com/atmatrix/greenland/controller/AppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-core/src/main/java/com/atmatrix/greenland/core/util/CookieUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-core/src/main/java/com/atmatrix/greenland/core/util/JedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6103">
+          <caret line="370" column="44" selection-start-line="370" selection-start-column="44" selection-end-line="370" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-core/src/main/java/com/atmatrix/greenland/core/util/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-core/src/main/java/com/atmatrix/greenland/core/store/SsoLoginStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-core/src/main/java/com/atmatrix/greenland/core/store/SsoSessionIdHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="96" selection-start-line="12" selection-start-column="96" selection-end-line="12" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-core/src/main/java/com/atmatrix/greenland/core/user/GreenlandSSOUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server/greenland-sso-server.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server/src/main/docker/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server/src/main/docker/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server/src/docker/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server/src/docker/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-core/src/main/java/com/atmatrix/greenland/core/filter/GreenlandSsoTokenFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>greenland-sso</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

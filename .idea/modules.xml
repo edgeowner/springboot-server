@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/greenland-sso.iml" filepath="$PROJECT_DIR$/greenland-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greenland-sso-core/greenland-sso-core.iml" filepath="$PROJECT_DIR$/greenland-sso-core/greenland-sso-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greenland-sso-server/greenland-sso-server.iml" filepath="$PROJECT_DIR$/greenland-sso-server/greenland-sso-server.iml" />
+    </modules>
+  </component>
+</project>

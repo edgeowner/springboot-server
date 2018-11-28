@@ -1,0 +1,1419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad96dec4-53c5-4953-9586-baa5e48efeea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/docker/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/util/web/JedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/start.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../api/src/main/java/org/atmatrix/greenland/config/SSOConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../api/src/main/java/org/atmatrix/greenland/config/SSOConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../api/src/main/java/org/atmatrix/greenland/domain/assets/AssetPackageBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../api/src/main/java/org/atmatrix/greenland/domain/assets/AssetPackageBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../greenland-sso-core/src/main/java/com/atmatrix/greenland/core/store/SsoSessionIdHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../greenland-sso-core/src/main/java/com/atmatrix/greenland/core/store/SsoSessionIdHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../greenland-sso-core/target/greenland-sso-core-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../greenland-sso-core/target/greenland-sso-core-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../greenland-sso-core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../greenland-sso-core/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../greenland-sso-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../greenland-sso-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../greenland-sso-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../greenland-sso-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/config/GreenlandSSOConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/config/GreenlandSSORedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/controller/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/controller/WebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/docker/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/SSOUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SSOUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserBaseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserBaseMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atmatrix/greenland/config/CORSConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atmatrix/greenland/config/CORSConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atmatrix/greenland/config/GlobalCorsConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atmatrix/greenland/config/GlobalCorsConfig$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atmatrix/greenland/config/GlobalCorsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atmatrix/greenland/config/GlobalCorsConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atmatrix/greenland/config/GreenlandSSOConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atmatrix/greenland/controller/WebController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atmatrix/greenland/controller/WebController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atmatrix/greenland/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atmatrix/greenland/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/SSOUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/SSOUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserBaseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UserBaseMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/dist/css/AdminLTE.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/dist/css/AdminLTE.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/dist/css/skins/_all-skins.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/dist/css/skins/_all-skins.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/dist/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/dist/js/app.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/fastclick/fastclick.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/fastclick/fastclick.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/icheck.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/icheck.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/_all.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/_all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/aero.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/aero.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/aero.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/aero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/aero@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/aero@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/blue@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/blue@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/green.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/green.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/green@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/green@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/grey.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/grey.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/grey.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/grey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/grey@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/grey@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/orange.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/orange.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/orange.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/orange.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/orange@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/orange@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/pink.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/pink.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/pink.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/pink.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/pink@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/pink@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/purple.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/purple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/purple.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/purple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/purple@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/purple@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/red.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/red.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/red.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/red@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/red@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/square.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/square.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/square.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/square.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/square@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/square@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/yellow.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/yellow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/yellow.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/yellow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/yellow@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/iCheck/square/yellow@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/jQuery/jquery-2.2.3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/jQuery/jquery-2.2.3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/slimScroll/jquery.slimscroll.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/adminlte/plugins/slimScroll/jquery.slimscroll.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/plugins/font-awesome-4.5.0/css/font-awesome.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/plugins/font-awesome-4.5.0/css/font-awesome.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/plugins/font-awesome-4.5.0/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/plugins/font-awesome-4.5.0/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/plugins/font-awesome-4.5.0/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/plugins/font-awesome-4.5.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenland-sso-server-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenland-sso-server-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greenland-sso-server-1.0.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/greenland-sso-server-1.0.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../web/src/components/login1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../../web/src/components/login1.vue" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1512304887">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Dockerfile" value="13" />
+          <entry key="class" value="14" />
+          <entry key="ftl" value="1" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="79" />
+          <entry key="json" value="1" />
+          <entry key="md" value="2" />
+          <entry key="properties" value="3" />
+          <entry key="sh" value="2" />
+          <entry key="xml" value="15" />
+          <entry key="yml" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Bash" value="2" />
+          <entry key="CLASS" value="14" />
+          <entry key="Dockerfile" value="13" />
+          <entry key="FTL" value="1" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="79" />
+          <entry key="JSON" value="1" />
+          <entry key="Markdown" value="2" />
+          <entry key="Properties" value="3" />
+          <entry key="XML" value="15" />
+          <entry key="YAML" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Dockerfile" value="81" />
+          <entry key="dummy" value="7" />
+          <entry key="java" value="286" />
+          <entry key="md" value="89" />
+          <entry key="properties" value="104" />
+          <entry key="xml" value="30" />
+          <entry key="yml" value="316" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Dockerfile" value="81" />
+          <entry key="JAVA" value="286" />
+          <entry key="Markdown" value="89" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Properties" value="104" />
+          <entry key="XML" value="30" />
+          <entry key="YAML" value="316" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-514">
+              <caret line="140" column="5" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/atmatrix/greenland/dao/SSOUserMapperTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/config/GreenlandSSORedisConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#495#527#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/greenland/atmatrix/greenland-sso-core/1.0.0-SNAPSHOT/greenland-sso-core-1.0.0-SNAPSHOT.jar!/com/atmatrix/greenland/core/store/SsoLoginStore.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/greenland/atmatrix/greenland-sso-core/1.0.0-SNAPSHOT/greenland-sso-core-1.0.0-SNAPSHOT.jar!/com/atmatrix/greenland/core/util/JedisUtil.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/util/Pool.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.2.RELEASE/spring-beans-5.1.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="1723" column="21" selection-start-line="1723" selection-start-column="21" selection-end-line="1723" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/docker/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/docker/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>suzhe</find>
+      <find>TbUser</find>
+      <find>getAll</find>
+      <find>redire</find>
+      <find>登录中</find>
+      <find>Example_Where_Clause</find>
+      <find>BaseResultMap</find>
+      <find>Base_Column_List</find>
+      <find>Login</find>
+      <find>不存在该用户</find>
+      <find>Maps.newHashMap()</find>
+      <find>sso_server</find>
+      <find>long</find>
+      <find>greenland_sso_sessionid</find>
+      <find>userName</find>
+      <find>ifRem</find>
+      <find>login</find>
+      <find>doLogin</find>
+      <find>spring.mvc.dispatch-options-request=true</find>
+      <find>请输入正确的用户</find>
+      <find>doLog</find>
+      <find>logout</find>
+      <find>redi</find>
+      <find>properties</find>
+      <find>maven-war-</find>
+      <find>java.util.LinkedHashMap</find>
+      <find>com.sp</find>
+      <find>spring-boot-starter-redis</find>
+      <find>war</find>
+      <find>hungry_davinci</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>user_id</replace>
+      <replace>Userid</replace>
+      <replace>new HashMap();</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/common/constants/ParamsUserType.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/config/initConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/config/InitConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/common/constants/ServiceException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/config/ServiceException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/common/constants/ResultCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/common/ServiceException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/util/PasswordUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/common/exception/ServiceException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/util/PasswordProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/common/exception/ApplicationException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/dao/UserBaseMapper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/atmatrix/greenland/dao/SSOUserMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/adminlte/dist/css/skins/_all-skins.min.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/adminlte/dist/js/app.min.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/util/web/ResponseConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/util/web/WebUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/GreenlandSSOServerApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/common/common.exception.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/common/common.macro.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/service/vo/LoginVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/controller/AppController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/dao/SSOUserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/dao/po/SSOUser.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/docker/Dockerfile" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/config/CORSConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/config/GlobalCorsConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/docker/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/core/model/UserInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/controller/WebController.java" />
+        <option value="$PROJECT_DIR$/start.md" />
+        <option value="$PROJECT_DIR$/src/docker/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/src/docker/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/config/JedisPoolConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/util/web/JedisUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/util/web/JedisUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/docker/Dockerfile" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/SSOUserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserBaseMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/config/GreenlandSSORedisConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/docker/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="greenland-sso-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="greenland-sso-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-2444" />
+    <option name="y" value="-511" />
+    <option name="width" value="1733" />
+    <option name="height" value="1165" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Maven</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>MavenModelInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="greenland-sso-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="greenland-sso-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="greenland-sso-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="greenland-sso-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="greenland-sso-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="greenland-sso-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="greenland-sso-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="greenland-sso-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="greenland-sso-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="greenland-sso-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="greenland-sso-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="greenland-sso-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="greenland" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="greenland-sso-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="greenland-sso-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="greenland" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="greenland-sso-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="greenland-sso-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="greenland" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="greenland-sso-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="greenland-sso-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="greenland" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="greenland-sso-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="greenland-sso-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="greenland" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="greenland-sso-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="greenland-sso-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="greenland-sso-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="greenland-sso-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="greenland-sso-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="greenland-sso-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="greenland-sso-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="greenland-sso-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="greenland-sso-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="greenland-sso-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="JedisPoolConfig&#9;FILE&#9;file:///Users/atmatrix/java-project/greenland/sso/greenland-sso/greenland-sso-server/src/main/java/com/atmatrix/greenland/config/JedisPoolConfig.java&#10;Jed&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.data.redis.RedisProperties.Jedis&#10;CookieUtil&#9;FILE&#9;jar:///Users/atmatrix/.m2/repository/com/greenland/atmatrix/greenland-sso-core/1.0.0-SNAPSHOT/greenland-sso-core-1.0.0-SNAPSHOT.jar!/com/atmatrix/greenland/core/util/CookieUtil.class&#10;GreenlandSsoTokenFilter&#9;PSI&#9;JAVA://com.atmatrix.greenland.core.filter.GreenlandSsoTokenFilter&#10;GreenlandSsoWebFilter&#9;PSI&#9;JAVA://com.atmatrix.greenland.core.filter.GreenlandSsoWebFilter&#10;Fil&#9;FILE&#9;jar:///Users/atmatrix/.m2/repository/com/greenland/atmatrix/greenland-sso-core/1.0.0-SNAPSHOT/greenland-sso-core-1.0.0-SNAPSHOT.jar!/com/atmatrix/greenland/core/filter/GreenlandSsoWebFilter.class&#10;Filter&#9;FILE&#9;jar:///Users/atmatrix/.m2/repository/com/greenland/atmatrix/greenland-sso-core/1.0.0-SNAPSHOT/greenland-sso-core-1.0.0-SNAPSHOT.jar!/com/atmatrix/greenland/core/filter/GreenlandSsoWebFilter.class" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543400285072" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="show.run.dashboard.notification" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.atmatrix.greenland.dao" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atmatrix.greenland.util.web" />
+      <recent name="com.atmatrix.greenland.util" />
+      <recent name="com.atmatrix.greenland.common.exception" />
+      <recent name="com.atmatrix.greenland.common" />
+      <recent name="com.atmatrix.greenland.common.constants" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/target/docker" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/docker" />
+      <recent name="$PROJECT_DIR$/src/main/resources/docker" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.sso-server">
+    <configuration name="ApplicationTests.testContextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="greenland-sso-server" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ApplicationTests" />
+      <option name="METHOD_NAME" value="testContextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="greenland-sso-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atmatrix.greenland.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atmatrix.greenland.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.atmatrix.greenland.dao.BaseTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SSOUserMapperTest.selectByExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="greenland-sso-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atmatrix.greenland.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atmatrix.greenland.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.atmatrix.greenland.dao.SSOUserMapperTest" />
+      <option name="METHOD_NAME" value="selectByExample" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="greenland-sso-server [mybatis-generator:generate]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="sso-server" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="greenland-sso-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atmatrix.greenland.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="greenland" type="docker-deploy" factoryName="docker-compose.yml" editBeforeRun="true" server-name="sso-docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+          <option name="startBrowserSettings">
+            <browser url="http://127.0.0.1" />
+          </option>
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.greenland" />
+      <item itemvalue="Spring Boot.sso-server" />
+      <item itemvalue="JUnit.ApplicationTests.testContextLoads" />
+      <item itemvalue="JUnit.SSOUserMapperTest.selectByExample" />
+      <item itemvalue="JUnit.BaseTest" />
+      <item itemvalue="Maven.greenland-sso-server [mybatis-generator:generate]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SSOUserMapperTest.selectByExample" />
+        <item itemvalue="JUnit.BaseTest" />
+        <item itemvalue="JUnit.ApplicationTests.testContextLoads" />
+        <item itemvalue="Maven.greenland-sso-server [mybatis-generator:generate]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad96dec4-53c5-4953-9586-baa5e48efeea" name="Default Changelist" comment="" />
+      <created>1542879021112</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542879021112</updated>
+      <workItem from="1542879022301" duration="2515000" />
+      <workItem from="1542882964744" duration="2460000" />
+      <workItem from="1542885504835" duration="2192000" />
+      <workItem from="1542889247304" duration="519000" />
+      <workItem from="1542889795350" duration="158000" />
+      <workItem from="1542889962482" duration="141000" />
+      <workItem from="1542890109457" duration="134000" />
+      <workItem from="1542890252178" duration="24580000" />
+      <workItem from="1543199360797" duration="11470000" />
+      <workItem from="1543212540368" duration="174000" />
+      <workItem from="1543212834762" duration="19810000" />
+      <workItem from="1543243368139" duration="56000" />
+      <workItem from="1543243513151" duration="53000" />
+      <workItem from="1543244054072" duration="3000" />
+      <workItem from="1543244362791" duration="432000" />
+      <workItem from="1543244955278" duration="65000" />
+      <workItem from="1543245040768" duration="212000" />
+      <workItem from="1543245475269" duration="19232000" />
+      <workItem from="1543311637667" duration="24696000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SSOUserMapperTest_selectByExample - 2018.11.23 at 16h 24m 58s.xml">
+      <configuration name="SSOUserMapperTest.selectByExample" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SSOUserMapperTest_selectByExample - 2018.11.23 at 16h 25m 34s.xml">
+      <configuration name="SSOUserMapperTest.selectByExample" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SSOUserMapperTest_selectByExample - 2018.11.23 at 16h 28m 35s.xml">
+      <configuration name="SSOUserMapperTest.selectByExample" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SSOUserMapperTest_selectByExample - 2018.11.23 at 17h 37m 09s.xml">
+      <configuration name="SSOUserMapperTest.selectByExample" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseTest - 2018.11.23 at 17h 37m 55s.xml">
+      <configuration name="BaseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SSOUserMapperTest_selectByExample - 2018.11.26 at 11h 45m 41s.xml">
+      <configuration name="SSOUserMapperTest.selectByExample" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SSOUserMapperTest_selectByExample - 2018.11.26 at 11h 49m 07s.xml">
+      <configuration name="SSOUserMapperTest.selectByExample" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SSOUserMapperTest_selectByExample - 2018.11.26 at 11h 50m 16s.xml">
+      <configuration name="SSOUserMapperTest.selectByExample" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SSOUserMapperTest_selectByExample - 2018.11.26 at 11h 51m 16s.xml">
+      <configuration name="SSOUserMapperTest.selectByExample" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SSOUserMapperTest_selectByExample - 2018.11.26 at 11h 51m 42s.xml">
+      <configuration name="SSOUserMapperTest.selectByExample" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="108902000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-2444" y="-511" width="1733" height="1165" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26374927" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49909174" weight="0.32738853" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.53696036" weight="0.5535881" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49833056" weight="0.248636" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
+      <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49954587" weight="0.32866243" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49793023" visible="true" weight="0.4054054" />
+      <window_info anchor="bottom" id="Docker" order="9" sideWeight="0.49877602" weight="0.4799627" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4630396" side_tool="true" weight="0.5535881" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3280522" />
+      <window_info anchor="bottom" id="Multi-OS Engine" order="12" weight="0.3299363" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32866243" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.49499166" weight="0.40633738" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Maven Projects" order="1" visible="true" weight="0.23891188" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="JSON Viewer" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Flutter Inspector" order="7" weight="0.32998997" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Flutter Outline" order="9" weight="0.063276164" />
+      <window_info anchor="right" id="SciView" order="10" />
+      <window_info anchor="right" id="Palette&#9;" order="11" />
+      <window_info anchor="right" id="Theme Preview" order="12" />
+      <window_info anchor="right" id="Bean Validation" order="13" weight="0.25612178" />
+      <window_info anchor="right" id="Maven" order="14" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25977933" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49909174" weight="0.32939324" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5872618" visible="true" weight="0.4716981" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.498997" weight="0.39892185" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49954587" weight="0.32939324" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49909174" weight="0.32939324" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4127382" side_tool="true" visible="true" weight="0.4716981" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Multi-OS Engine" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.49598795" weight="0.32884097" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="JSON Viewer" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Flutter Inspector" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Flutter Outline" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" visible="true" weight="0.27231696" />
+      <window_info anchor="right" id="SciView" order="10" />
+      <window_info anchor="right" id="Palette&#9;" order="11" />
+      <window_info anchor="right" id="Theme Preview" order="12" />
+      <window_info anchor="right" id="Bean Validation" order="13" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/controller/WebController.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/controller/WebController.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/greenland/atmatrix/greenland-sso-core/1.0.0-SNAPSHOT/greenland-sso-core-1.0.0-SNAPSHOT.jar!/com/atmatrix/greenland/core/filter/GreenlandSsoWebFilter.class</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/service/impl/UserServiceImpl.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/service/impl/UserServiceImpl.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/controller/WebController.java</url>
+          <line>215</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/greenland/atmatrix/greenland-sso-core/1.0.0-SNAPSHOT/greenland-sso-core-1.0.0-SNAPSHOT.jar!/com/atmatrix/greenland/core/login/SSOWebLoginHelper.class</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/greenland/atmatrix/greenland-sso-core/1.0.0-SNAPSHOT/greenland-sso-core-1.0.0-SNAPSHOT.jar!/com/atmatrix/greenland/core/filter/GreenlandSsoWebFilter.class</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/controller/AppController.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/controller/AppController.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/service/impl/UserServiceImpl.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/greenland/atmatrix/greenland-sso-core/1.0.0-SNAPSHOT/greenland-sso-core-1.0.0-SNAPSHOT.jar!/com/atmatrix/greenland/core/filter/GreenlandSsoWebFilter.class</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/greenland/atmatrix/greenland-sso-core/1.0.0-SNAPSHOT/greenland-sso-core-1.0.0-SNAPSHOT.jar!/com/atmatrix/greenland/core/filter/GreenlandSsoTokenFilter.class</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/greenland/atmatrix/greenland-sso-core/1.0.0-SNAPSHOT/greenland-sso-core-1.0.0-SNAPSHOT.jar!/com/atmatrix/greenland/core/filter/GreenlandSsoTokenFilter.class</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/core/model/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/core/result/ReturnT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/dao/UserBaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/dao/po/UserBaseExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/dao/SSOUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/util/web/ResponseConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/util/web/WebUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="54" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/docker/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-131" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/greenland-sso-server-1.0.0-SNAPSHOT/WEB-INF/classes/docker/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docker/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docker/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="12" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/config/GlobalCorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#1566#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisPoolConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/config/JedisPoolConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/config/CORSConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#1512#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/util/web/JedisUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/docker/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/controller/AppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="165" column="30" selection-start-line="165" selection-start-column="30" selection-end-line="165" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/controller/WebController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="274" column="34" selection-start-line="274" selection-start-column="34" selection-end-line="274" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/docker/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="453" column="34" selection-start-line="453" selection-start-column="34" selection-end-line="453" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.13/mysql-connector-java-8.0.13-sources.jar!/com/mysql/cj/jdbc/NonRegisteringDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="206" selection-start-line="206" selection-end-line="206" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.13/mysql-connector-java-8.0.13-sources.jar!/com/mysql/cj/jdbc/ConnectionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="834" selection-start-line="834" selection-end-line="834" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.13/mysql-connector-java-8.0.13-sources.jar!/com/mysql/cj/jdbc/exceptions/CommunicationsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.13/mysql-connector-java-8.0.13-sources.jar!/com/mysql/cj/jdbc/exceptions/SQLError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="173" column="36" selection-start-line="173" selection-start-column="36" selection-end-line="173" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/config/InitConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserBaseMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SSOUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2996">
+          <caret line="26" column="29" selection-end-line="231" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="63" column="35" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/docker/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenland-sso-server.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="136">
+            <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-514">
+          <caret line="140" column="5" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/atmatrix/greenland/dao/SSOUserMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/docker/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/docker/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.2.RELEASE/spring-beans-5.1.2.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6418">
+          <caret line="1187" selection-start-line="1187" selection-end-line="1187" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.2.RELEASE/spring-beans-5.1.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="1723" column="21" selection-start-line="1723" selection-start-column="21" selection-end-line="1723" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/util/Pool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/greenland/atmatrix/greenland-sso-core/1.0.0-SNAPSHOT/greenland-sso-core-1.0.0-SNAPSHOT.jar!/com/atmatrix/greenland/core/util/JedisUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/greenland/atmatrix/greenland-sso-core/1.0.0-SNAPSHOT/greenland-sso-core-1.0.0-SNAPSHOT.jar!/com/atmatrix/greenland/core/store/SsoLoginStore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atmatrix/greenland/config/GreenlandSSORedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#495#527#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>greenland-sso-server</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
